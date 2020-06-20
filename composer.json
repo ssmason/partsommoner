@@ -1,0 +1,14 @@
+{
+  "name": "party/summoner",
+  "description": "Party Summoner RGG web site",
+  "require-dev": {
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.6.0",
+    "wp-coding-standards/wpcs": "2.1.1",
+    "automattic/vipwpcs": "^2.0",
+    "phpunit/phpunit": "^7",
+    "helmich/phpunit-json-assert": "^2.1"
+  },
+  "scripts": {
+    "php:lint": "vendor/bin/phpcs ."
+  }
+}
